@@ -1,4 +1,6 @@
-// quantos numeros entre 1 e 1000 são divisíveis por 17
+// Pergunta: Quantos numeros entre 1 e 1000 são divisíveis por 17
+// primeiro criamos a variavel resposta e depois a numero, que é de onde
+// partirá o comeca da contagem de divisão de resto
 
 let resposta = 0; // 0 pois vamos buscar este valor e será substituído depois
 let numero = 1; // sempre começa do 01, apenas divisiveis.
