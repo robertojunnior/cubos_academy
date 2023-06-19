@@ -1,18 +1,12 @@
-//pnesamento racional lógico - pseudo codigo
+//pensamento racional lógico - pseudo codigo
 
 //(if) se verificar se a operação é uma soma -> numero1 + numero2
 //(else if) se não, verificar se a operação é uma subtracao -> numero1 - numero2
 //(else if) se não, verificar se a operação é uma multiplicacao -> numero1 * numero2
-//(else)verificar se a operação é uma divisao -> numero1 / numero2
+//(else)se não, verificar se a operação é uma divisao -> numero1 / numero2
 
 let numero1 = 10
 let numero2 = 5
-
-const soma = numero1 + numero2
-const subtracao = numero1 - numero2
-const multiplicacao = numero1 * numero2
-const divisao = numero1 / numero2
-
 const operacao = "divisao"
 
 if (operacao === "soma") {
