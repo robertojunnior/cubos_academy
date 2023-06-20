@@ -10,13 +10,13 @@ let numero2 = 5
 const operacao = "divisao"
 
 if (operacao === "soma") {
-    console.log(soma)
+    console.log(numero1 + numero2)
 } else if ( operacao === "subtracao"){
-    console.log(subtracao)
+    console.log(numero1 - numero2)
 } else if (operacao === "multiplicacao"){
-    console.log(multiplicacao)
+    console.log(numero1 * numero2)
 } else if (operacao === "divisao"){
-    console.log(divisao)
+    console.log(numero1 / numero2)
 }
 
 //agora como ficaria a solução para o exercício na plataforma
@@ -31,3 +31,8 @@ if (operacao === "soma") {
     return numero1 / numero2
 }
 
+
+// Lembrando que também podemos criar variáveis para cada operação ex:
+// const soma = numero1 + numero2
+// E substituir no console.log(soma)
+// Porém neste exemplo como as entradas vem de um código já escrito, não alteramos a forma básica
