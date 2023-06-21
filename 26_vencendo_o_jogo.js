@@ -16,3 +16,15 @@ if (golsTimeA > golsTimeB){
     console.log("EMPATE")
 }
 
+// Para plataforma, remover console.log e entradas
+
+// let golsTimeA = placar[0]
+// let golsTimeB = placar[1]
+
+// if (golsTimeA > golsTimeB){
+//     return "TIME A"
+// } else if (golsTimeA < golsTimeB){
+//     return "TIME B"
+// } else {
+//     return "EMPATE"
+// }
