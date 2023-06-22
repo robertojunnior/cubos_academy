@@ -17,7 +17,8 @@ let resultado = soma - menorAteAgora; // aqui declaro uma nova var resultado
 //por que se tiver 5 ou mais itens na lista vamos aplicar o desconto do menor valor encontrado na soma de todos os elementos do array precos (50,00)
 
 if (precos.length >= 5) { // se precos tiver 5 itens ou mais
-  console.log("O valor a ser descontado foi de R$",menorAteAgora.toFixed(2), "e o total da compra foi de R$", resultado.toFixed(2)); // aplique a var "resultado"
+  console.log(`O total da compra foi de R$ ${soma.toFixed(2)} e menor valor de produto a ser descontado foi de R$ ${menorAteAgora.toFixed(2)}.`)
+  console.log(`O valor total a pagar é de R$ ${resultado.toFixed(2)}`); // apliquei a var "resultado"
 } else {
-  console.log("O valor total da compra foi de " ,soma); // se não, mostre a soma total da compra.
+  console.log(`O valor total da compra foi de ${soma.toFixed(2)}`); // se não, mostre a soma total da compra.
 }
