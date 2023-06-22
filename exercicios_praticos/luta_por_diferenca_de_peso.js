@@ -1,4 +1,4 @@
-let pesos = [74, 80];
+let pesos = [74, 69];
 
 let diferenca = pesos[0] - pesos[1];
 if (diferenca < 0){
