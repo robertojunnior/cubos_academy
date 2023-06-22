@@ -10,12 +10,12 @@ console.log("PODEM LUTAR");
 console.log("NAO PODEM LUTAR");
 }
 
-// // para plataforma
+// para plataforma
 // let diferenca = pesos[0] - pesos[1];
 
 // if (diferenca < 0){
 //     diferenca *= -1 
-//     // caso o peso1 seja menor uso a multiplicação do negativo igual no excel e deixo sempre positivo
+// caso o peso1 seja menor uso a multiplicação do negativo igual no excel e deixo sempre positivo
 // }
 // if (diferenca <= 5) {
 // return "PODEM LUTAR";
